@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+# i want this folder when cloning the repo, but i don't want backup files
+# saved in git.
