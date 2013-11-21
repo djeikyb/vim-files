@@ -1,5 +1,4 @@
-" vimrc for jake@home
-" Last updated: 2009-01-23
+" Last updated: 2013-11-20
 
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
