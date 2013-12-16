@@ -14,7 +14,7 @@ set backupdir=~/.vim/backup//
 set ruler               " show the cursor position all the time
 set showcmd             " display incomplete commands
 set incsearch           " do incremental searching
-set ignorecase          " ignore case when searching
+set noignorecase        " don't ignore case when searching or autocompleting
 set wrap
 set formatoptions=1
 set lbr                 " intelligent word wrap
@@ -27,6 +27,7 @@ set fdm=syntax
 set foldlevel=99
 set autoread
 set omnifunc=syntaxcomplete#Complete " ctl-n auto-complete
+set backspace=2         " always allow backspace in insert mode
 
 " Colours
 syntax on
